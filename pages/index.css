@@ -1,0 +1,61 @@
+@import url("../blocks/card.css");
+@import url("../blocks/grid.css");
+@import url("../blocks/page.css");
+
+h1 {
+  text-align: center;
+  color: purple;
+  padding: 10px;
+  border: 5px solid purple;
+  border-radius: 20px;
+  background-color: #ff6d00;
+}
+
+p {
+  font-size: 30px;
+  color: #5a189a;
+  text-align: center;
+  text-shadow: 2px 2px 5px gray;
+}
+
+.container {
+  background-color: #ff9e00;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px;
+}
+.button {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #ff6d00;
+  border-radius: 20px;
+  padding: 10px;
+  border: 5px solid purple;
+  box-shadow: 0 0 20px black;
+  margin: 10px;
+  height: 60px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-around;
+}
+.ball-image {
+  border-radius: 200px;
+  width: 10%;
+  transition: ease 0.5s;
+}
+.ball-image:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 20px white;
+  transform: rotateY(90deg);
+  transition: ease 0.5s;
+}
+
+.table {
+  display: flex;
+}
