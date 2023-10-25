@@ -2,26 +2,27 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 10vw;
-  grid-row-gap: 10vh;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vh;
+  height: 50%;
 }
 
 .grid-title {
   background-color: #ff6d00;
-  border-radius: 20px;
+  /* border-radius: 1vh; */
   padding: 10px;
-  border: 5px solid purple;
+  border: solid purple;
   box-shadow: 2px 2px 5px;
 }
 
 .grid__image {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
-  border-radius: 50px;
+  border-radius: 30% 30% 5% 5%;
   transition: ease-in-out 1s;
   opacity: 1;
   scale: 100%;
+  object-fit: cover;
 }
 .grid__image:hover {
   transition: ease-in-out 1s;
