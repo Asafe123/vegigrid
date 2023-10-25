@@ -22,12 +22,12 @@ p {
   background-color: #ff9e00;
 }
 
-.responsive {
+/* .responsive {
   width: 100%;
   height: auto;
   border-radius: 50px;
   box-shadow: 2px 2px 5px;
-}
+} */
 .button {
   font-size: 30px;
   font-weight: bold;

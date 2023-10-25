@@ -1,6 +1,9 @@
-.grid {
+.grid-container {
   display: grid;
-  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10vw;
+  grid-row-gap: 10vh;
 }
 
 .grid-title {
@@ -11,14 +14,17 @@
   box-shadow: 2px 2px 5px;
 }
 
-/* .grid__card:hover {
-  box-shadow: 0 0 0;
-  transition: 0.5s ease-in-out;
-} */
 .grid__image {
   width: 100%;
+  height: 100%;
   border-radius: 10px;
+  border-radius: 50px;
+  transition: ease-in-out 1s;
+  opacity: 1;
+  scale: 100%;
 }
 .grid__image:hover {
   transition: ease-in-out 1s;
+  opacity: 0;
+  scale: 50%;
 }
